@@ -1,0 +1,30 @@
+package code;
+import java.util.Scanner;
+public class arithimetic {
+	
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+
+	System.out.println("Enter First Number: ");
+	int a = sc.nextInt();
+
+	System.out.println("Enter Second Number: ");
+	int b = sc.nextInt();
+
+	double add , sub , mul ;
+	add = a +b ;
+	sub = a - b;
+	mul = a * b ;
+	System.out.println("Addtion : "+ add);
+	System.out.println("Subtraction : "+ sub);
+	System.out.println("Multiplication : "+ mul);
+
+	if(b != 0 ){
+	double div = a / b;
+	System.out.println("Division : "+ div);
+	}
+	sc.close();
+	
+	}
+
+}
